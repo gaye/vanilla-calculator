@@ -1,0 +1,64 @@
+html,
+body,
+#container {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.calculator {
+  background-color: black;
+  padding: 15px;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+}
+
+.display {
+  background-color: white;
+  height: 60px;
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+.display-operation {
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: right;
+  width: 100%;
+}
+
+.display-input {
+  font-size: 36px;
+  height: 45px;
+  line-height: 45px;
+  text-align: right;
+  width: 100%;
+}
+
+.keypad {
+  height: calc(100% - 80px);
+  width: 100%;
+}
+
+.keypad-row {
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-display: flex;
+  display: flex;
+  height: 33.33%;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.keypad-button {
+  background-color: #ddd;
+  cursor: pointer;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+}

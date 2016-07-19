@@ -73,7 +73,7 @@ function cacheSet(id, module) {
 function getBaseUrl(main) {
   let parts = main.split('/');
   let path = parts.slice(0, parts.length - 1).join('/');
-  return location.protocol + '//' + location.host + path;
+  return location.protocol + '//' + location.host + location.pathname + path;
 }
 
 // Call main.
